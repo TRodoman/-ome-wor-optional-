@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home work extra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="section1">
+        <div>
+          <div class="payments">
+            <a class="text-elem" href="#">Allready a member?</a>
+            <img src="./svg/111.svg" alt="" />
+          </div>
+          <div class="title-box">
+            <h1 class="title">Input your information</h1>
+            <p class="title-text">
+              We need you to help us with some basic information for your
+              account creation. Here are our
+              <span><a class="text-el" href="#">terms and conditins.</a></span>
+              Please read them carefully. We are GDRP compliiant
+            </p>
+          </div>
+          <form class="form">
+            <div class="form-box">
+              <ul class="form1">
+                <li class="input-name">
+                  <div class="label">
+                    <label for="first-name">First name</label>
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+                  <div>
+                    <input
+                      class="input"
+                      type="name"
+                      placeholder="John"
+                      id="first-name"
+                      required
+                    />
+                  </div>
+                </li>
+                <li class="input-work">
+                  <div class="label">
+                    <label for="company">Company</label>
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+                  <div>
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="John Smith"
+                      id="company"
+                      required
+                    />
+                  </div>
+                </li>
+
+                <li>
+                  <div class="label">
+                    <label for=""
+                      >Number of employees
+                      <span class="optional"> (optional)</span>
+                      <span class="optional1">(radio input)</span></label
+                    >
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+
+                  <div class="input-radio">
+                    <div class="radio">
+                      <input type="radio" name="number" id="radio1" />
+                      <label class="label-radio el" for="radio1">0<20</label>
+                    </div>
+
+                    <div class="radio">
+                      <input type="radio" name="number" id="radio2" />
+                      <label class="label-radio el" for="radio2">20<50</label>
+                    </div>
+
+                    <div class="radio">
+                      <input type="radio" name="number" id="radio3" />
+                      <label class="label-radio el" for="radio3">50<100</label>
+                    </div>
+
+                    <div class="radio">
+                      <input type="radio" name="number" id="radio4" />
+                      <label class="label-radio el" for="radio4">100<...</label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="form2">
+                <li class="input-name">
+                  <div class="label">
+                    <label for="last-name">Last name</label>
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+                  <div>
+                    <input
+                      class="input"
+                      type="name"
+                      placeholder="Smit"
+                      id="last-name"
+                      required
+                    />
+                  </div>
+                </li>
+                <li class="input-work">
+                  <div class="label">
+                    <label for="email">Work email</label>
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+                  <div>
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="John Smith"
+                      required
+                      id="email"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="label">
+                    <label for="tel"
+                      >Phone number
+                      <span class="optional">(optional)</span></label
+                    >
+                    <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                  </div>
+                  <div>
+                    <input
+                      class="input"
+                      type="tel"
+                      placeholder="+380 00 000 000"
+                      maxlength="13"
+                      required
+                      id="tel"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="password-form">
+              <div class="password-box">
+                <div class="label">
+                  <label for="password">Password</label>
+                  <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                </div>
+                <div>
+                  <input
+                    class="input1"
+                    type="password"
+                    required
+                    id="password"
+                  />
+                </div>
+              </div>
+              <div class="password-box">
+                <div class="label">
+                  <label for="pass">Confirm password</label>
+                  <a href="#"><img src="./svg/222.svg" alt="question" /></a>
+                </div>
+                <div>
+                  <input class="input1" type="password" required id="pass" />
+                </div>
+              </div>
+            </div>
+            <div class="submit">
+              <label class="checkbox">
+                <input type="checkbox" />
+                <div class="checkbox-text">
+                  I agree with
+                  <span
+                    ><a class="text-el" href="#">terms and conditins.</a></span
+                  >
+                </div>
+              </label>
+              <input class="register" type="submit" value="Register" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section-img">
+        <div class="img">
+          <img src="./svg/men.svg" alt="men" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+  :root {
+    font-size: 9px;
+  }
+ 
+  .section-img img {
+    width: 630px;
+   }
+  
+}
+@media screen and (max-width: 1024px) {
+    :root {
+      font-size: 8px;
+    }
+    .section-img img {
+      width: 550px;
+     }
+    
+    }
+
+@media screen and (max-width: 992px) {
+  :root {
+    font-size: 7px;
+  }
+  .section-img img {
+    width: 550px;
+   }
+  
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 6px;
+  }
+  .section-img img {
+    width: 430px;
+   }
+}
